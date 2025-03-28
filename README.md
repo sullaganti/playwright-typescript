@@ -86,10 +86,4 @@ Feel free to explore the guides and refer back as needed!
 
 ---
 
-### Contributors:
-
--   **Bhargav Murarisetty**: Main contributor and facilitator for the Playwright framework setup.
-
----
-
 This `README.md` serves as an index and overview, linking to more specific guides within the `Guides/` folder like **esLintAndPretty.md** and **FrameworkIntroduction.md**. It gives a quick look into what each section covers and directs users to detailed guides for setup and execution.
