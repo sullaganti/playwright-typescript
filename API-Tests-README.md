@@ -18,7 +18,6 @@ This Playwright API testing framework is designed for comprehensive REST API tes
 
 ### Key Features
 
-- **Cross-browser compatibility** with Chromium, Firefox, and WebKit
 - **Built-in request context** for API calls
 - **TypeScript support** for type safety
 - **Data-driven testing** with parameterized test cases
