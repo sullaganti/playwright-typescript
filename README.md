@@ -1,7 +1,7 @@
 
 # Playwright Automation Framework Documentation
 
-
+> **Note:** For API Tests, please refer to the [API-Tests-README.md](https://github.com/sullaganti/playwright-typescript/blob/main/API-Tests-README.md).
 ## Introduction
 
 This document provides a comprehensive guide to using the Playwright automation framework. This framework enables fast and reliable end-to-end testing for modern web applications, supporting Chromium, Firefox, and WebKit. It is designed to facilitate cross-browser web automation, particularly for complex web applications.

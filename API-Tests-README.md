@@ -297,14 +297,14 @@ test('Validate response schema', async ({ request }) => {
 
 ### Installation
 ```powershell
+npm i
 npm install @playwright/test
-npm install zod  # For schema validation
 npx playwright install
 ```
 
 ### Running All API Tests
 ```powershell
-npx playwright test API.spec.ts
+npx run ApiTests
 ```
 
 ### Running Specific Test Suite
