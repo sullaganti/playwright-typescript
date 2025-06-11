@@ -1,7 +1,6 @@
 
 # Playwright Automation Framework Documentation
 
-## Note: This repo has tests written for https://testingmaster.in
 
 ## Introduction
 
