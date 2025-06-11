@@ -1,8 +1,11 @@
-
 # Playwright Automation Framework Documentation
 
-> **Note:** For API Tests, please refer to the [API-Tests-README.md](https://github.com/sullaganti/playwright-typescript/blob/main/API-Tests-README.md).
+> **Note1:** For API Tests, please refer to the [API-Tests-README.md](https://github.com/sullaganti/playwright-typescript/blob/main/API-Tests-README.md).
+
+> **Note2:** For API Tests Reports, please refer to the [Link](https://sullaganti.github.io/playwright-typescript/).
+
 ## Introduction
+
 
 This document provides a comprehensive guide to using the Playwright automation framework. This framework enables fast and reliable end-to-end testing for modern web applications, supporting Chromium, Firefox, and WebKit. It is designed to facilitate cross-browser web automation, particularly for complex web applications.
 
@@ -104,6 +107,10 @@ src
 - **test/resources**: Contains additional resources for test cases, such as mock data.
 - **test/typescript**: Contains test specification files.
   - **StandardTestSpecFile.spec.ts**: A sample test specification file.
+
+## Reason Behind Folder Structure
+
+This repository follows a folder structure inspired by the Maven archetype quick start commonly used in Java Selenium projects. Instead of the traditional `java` folder, we use `typescript` to align with the Playwright framework's TypeScript-based implementation. Similarly, the `base` folder replaces the `Base package` to house foundational classes and utilities. This design ensures that developers transitioning from Java Selenium find the structure familiar and intuitive, facilitating a smoother onboarding experience.
 
 ## Coding Guidelines
 
