@@ -1,8 +1,8 @@
 # Playwright Automation Framework Documentation
 
-> **Note1:** For API Tests, please refer to the [API-Tests-README.md](https://github.com/sullaganti/playwright-typescript/blob/main/API-Tests-README.md).
+> **Note1:** For API Tests, please refer to the <a href="https://github.com/sullaganti/playwright-typescript/blob/main/API-Tests-README.md" target="_blank">API-Tests-README.md</a>.
 
-> **Note2:** For API Tests Reports, please refer to the [Link](https://sullaganti.github.io/playwright-typescript/).
+> **Note2:** For API Tests Reports, please refer to the <a href="https://sullaganti.github.io/playwright-typescript/" target="_blank">API Tests Reports</a>.
 
 ## Introduction
 
