@@ -24,5 +24,8 @@
         "PAT_TOKEN": "YOUR_AZURE_DEVOPS_PAT_TOKEN",
         "BASE_URL": "YOUR_AZURE_DEVOPS_URL",
         "PROJECT": "YOUR_PROJECT_NAME_IN_AZURE_DEVOPS"
+    },
+    "PetStore": {
+        "BASE_URL": "https://petstore.swagger.io/v2"
     }
 }

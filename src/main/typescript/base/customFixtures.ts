@@ -1,5 +1,6 @@
 import { test as base } from '@playwright/test'
 
+import { Utility } from '../helpers/Utility'
 import { GoogleHomePageActions } from '../pages/actions/GoogleHomePageActions'
 import { LoginPageActions } from '../pages/actions/LoginPageActions'
 import {NaukariPageActions} from '../pages/actions/NaukariPageActions'
@@ -11,6 +12,7 @@ type MyFixtures = {
     googleHomePageActions: GoogleHomePageActions
     loginPageActions: LoginPageActions
     naukariPageActions: NaukariPageActions
+    utility: Utility
 }
 
 /**
@@ -26,6 +28,9 @@ export const test = base.extend<MyFixtures>({
     },
     naukariPageActions: async ({ page }, use) => {
         return await use(new NaukariPageActions(page))
-    }
+    },
+    utility: async ({ page }, use) => {
+        return await use(new Utility(page))
+    },
 })
 export { expect } from '@playwright/test'

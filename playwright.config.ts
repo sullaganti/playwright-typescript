@@ -11,7 +11,6 @@ import type { devices, PlaywrightTestConfig } from '@playwright/test'
 const config: PlaywrightTestConfig = {
     globalSetup: require.resolve('./src/main/typescript/helpers/global-setup.ts'),
     testDir: './src/test/typescript',
-    testMatch: '/Naukari*.ts',
     /* Maximum time one test can run for. */
     timeout: 1200000,
     expect: {
@@ -70,7 +69,20 @@ const config: PlaywrightTestConfig = {
                 },
             },
         },
+
+        {
+            name: 'API',
+            testMatch: '/API*.ts',
+            use: {
+                
+                channel: 'chromium',
+                headless: true,
+                baseURL:'https://petstore.swagger.io',
+            },
+        },
     ],
+
+    
 }
 
 export default config
